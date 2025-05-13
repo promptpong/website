@@ -7,6 +7,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
+    "lint:ts": "pnpm tsc --noEmit && echo '✅ Everything is okay. No TypeScript errors found.'",
     "format": "prettier --write ."
   },
   "dependencies": {
